@@ -1,0 +1,239 @@
+/*RESPONSIVE FOR iPad*/
+@media only screen and (max-width: 768px){
+    .BodyJoinUs{
+        background-attachment: fixed;
+    }
+    .field1{
+        width: 47%;
+    }
+    .navbar a, .searchBox  {
+        display: block;
+        float: left;
+        width: 100%;
+        margin: 0;
+      }
+      .footer-section1{
+          margin-right: 10%;
+          flex:1px;
+      }
+      .footer-section1 h3{
+          text-align: left;
+          margin-left: 12%;
+      }
+      .img-books{
+          width: 110px;
+          height: 190px;
+          margin-right: 20px;
+      }
+      .flex-left{
+        width: 200px;
+        padding-top: 100px;
+      }
+      .flex-right{
+        width: 300px;
+        padding-top: 100px;
+      }
+      #HP{
+        width: 260px;
+        height: 260px;
+        margin-bottom:  100px;
+    }
+    
+    #searchBox{
+        height: 30px;
+        width: 300px;
+    }
+    #WTCS{
+        width: 200px; 
+        height: 400px;
+        margin: 1% 0 20% 15%;
+    }
+    .drop-down  {
+        margin-right: 300px;
+    }
+    #book-cover{
+        margin-top: 10%;
+    }
+    #book-description{
+        margin-left: 10%;
+    }
+    .btn-container {
+        margin-top: -10%;
+        margin-right: 66%;
+    }
+    #ourstartIMG{
+        margin-right: 5%;
+        margin-left: 2%;
+     }
+    .text{
+        width: 50%;
+    }  
+    .text1{
+        margin-left: 5%;
+    } 
+  }
+
+    /*RESPONSIVE FOR iPhone X*/
+    @media only screen and (max-width: 376px){
+        .navbar a, .searchBox  {
+            width: 95px;
+            margin: 0;
+          }
+          #logo{
+            width: 90px;
+            height: 70px;
+        }
+          .flex-row  {
+              flex-direction: column;
+          }
+          .flex-row img{
+           margin-left: 20%;
+        }
+        .BodyJoinUs{
+            background-attachment: fixed;
+        }
+        #navigation{
+            flex-direction: column;
+            margin-bottom: 5%;
+        }
+        .field1{
+            width: 100%;
+        }
+        .Contact-Form{
+            border: solid 1px black;
+            padding:20px;
+        }
+        .our-start img{
+          float: none;
+        }
+        .footer-content {
+            flex-direction: column;
+            text-align: center;
+        }
+        .footer{
+            height: 550px;
+        }
+        .footer-section .fa{
+           margin: 10px;
+            font-size: 30px;
+        }
+        .flex-left{
+            width: 90%;
+            padding-top: 100px;
+          }
+          .flex-right{
+            width: 90%;
+            padding-top: 100px;
+          }
+          #HP{
+            width: 150px;
+            height: 150px;
+        }
+          #WTCS{
+            width: 150px; 
+            height: 250px;
+            margin: 1% 0 20% 15%;
+        }
+       .col-02{
+            flex-direction: column;
+       }
+        #book-cover{
+            margin-right: 900px;
+        }
+        #book-description{
+            width: 100%;
+            margin-left: 0;
+            text-align: center;
+        }
+        .btn-container {
+            margin-top: 3%;
+            margin-right: 55%;
+        }
+        /*slider*/
+        .slider{
+            max-width: 375px;
+        }
+
+        .mySlides img{
+            height: 280px;
+        }
+
+        .text-block{
+            bottom: 60%;
+            left: 5%;
+        }
+
+        /*Search bar*/
+        #hiddenSearch{
+            display: block;
+            margin: auto;
+        }
+        .text-block{
+            width: 150px;
+        }
+        .text-block p{
+            font-size: 12px;
+            font-weight: 100;
+            font-style:italic;
+        }
+
+        .text-block h1{
+            font-size: 20px;
+        }
+        /*HAMBURGER MENU*/
+        .list a:not(:first-child), .dropdownAcc .dropbtnAcc {
+            display: none;
+          }
+          .flex-container a.icon {
+            float: right;
+            display: block;
+          }
+          
+        .flex-container.responsive {position: relative;}
+        .flex-container.responsive .icon {
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+        .flex-container.responsive a {
+          float: none;
+          display: block;
+          text-align: left;
+          padding: 5px 10px;
+        }
+        .flex-container.responsive .dropdownAcc {float: none;}
+        .flex-container.responsive .dropdown-contentAcc {position: relative;}
+        .flex-container.responsive .dropdownAcc .dropbtnAcc {
+          display: block;
+          width: 100%;
+          text-align: left;
+        }
+
+        .search-nav input[type=text] {
+            width: 50px;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-bottom-right-radius: 4px;
+            border-top-right-radius: 4px;
+            font-size: 16px;
+            background-color: white;
+            background-image: url('searchicon.png');
+            background-position: 10px 10px; 
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;
+            -webkit-transition: width 0.4s ease-in-out;
+            transition: width 0.4s ease-in-out;
+          }
+          input[type=text]:focus {
+            width: 120px;
+          }
+
+          .dropdown-style {
+            width: 80px;
+            margin: auto;
+        }
+        .search-form{
+            margin-top: -3%;
+        }
+        
+      }
